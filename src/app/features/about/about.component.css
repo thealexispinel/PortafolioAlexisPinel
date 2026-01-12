@@ -1,0 +1,31 @@
+:host {
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Efecto para la foto */
+img {
+  filter: grayscale(100%) contrast(120%);
+  transition: filter 0.3s ease;
+}
+
+img:hover {
+  filter: grayscale(0%) contrast(100%);
+}
+
+/* Personalización del scroll interno si el texto fuera muy largo */
+p {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+p::-webkit-scrollbar {
+  width: 4px;
+}
+
+p::-webkit-scrollbar-thumb {
+  background: white;
+}
