@@ -8,9 +8,9 @@
            class="text-orange-500 text-xl font-bold hover:underline mb-2 block">
           [..] REGRESAR
         </a>
-      <h1 class="text-white text-6xl md:text-8xl font-bold uppercase tracking-tighter leading-none">
-        Proyectos
-      </h1>
+        <h1 class="text-white text-6xl md:text-8xl font-bold uppercase tracking-tighter leading-none">
+          Proyectos
+        </h1>
     </div>
 
     <!-- Portafolio -->
@@ -73,7 +73,7 @@
             <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
             <span class="text-white group-hover/link:text-cyan-400 text-lg font-bold uppercase leading-tight">Código Fuente</span>
           </a>
-            <p class="text-white text-basic tracking-tight"><strong>Herremientas</strong><br><strong>Backend:</strong> PHP <br> <strong>Frontend:</strong> HTML5, CSS3 <br><strong>Base de Datos:</strong> PhpMyAdmin <br><strong>QA:</strong> SonarQube Cloud</p>
+            <p class="text-white text-basic tracking-tight"><strong>Herremientas</strong><br><strong>Backend:</strong> PHP <br> <strong>Frontend:</strong> HTML5, CSS3 <br><strong>Base de Datos:</strong> PhpMyAdmin (MariaDB) <br><strong>QA:</strong> SonarQube Cloud</p>
         </div>
       </div>
 
@@ -110,29 +110,60 @@
         </div>
       </div>
 
-      <!-- Filmania DB -->
+      <!-- Proyecto MDU -->
 
       <div class="border-2 border-amber-500 p-6 flex flex-col md:flex-row gap-8 hover:bg-amber-500/5 transition-colors">
+        <div class="w-full md:w-2/3 space-y-4">
+          <h2 class="text-white text-3xl font-bold tracking-tight">IMMERSIVE TOUR <br> En Colaboración con MDU</h2>
+          <div>
+            <p class="text-white text-xs md:text-sm leading-relaxed text-justify font-light">
+              Immersive Tour es un proyecto colaborativo desarrollado por estudiantes de la Universidad Tecnológica de Panamá y profesores la Universidad de Mälardalen (Suecia). <br> El objetivo principal es cerrar la brecha entre los espacios físicos y virtuales mediante la creación de una aplicación de Realidad Aumentada (AR) que permite la interacción en tiempo real con entornos inteligentes. 
+            </p>
+            <ul class="text-white text-xs md:text-sm leading-relaxed text-justify font-light list-disc list-inside space-y-2 mt-4">
+              <h3>Objetivos del Proyecto</h3>
+              <li>Interacción en tiempo real: Desarrollar una aplicación para interactuar con una habitación modelada en 3D.</li>
+              <li>Sincronización de iluminación: Utilizar Unity y Home Assistant para reflejar el estado real de las luces (color e intensidad) dentro del entorno virtual, garantizando una experiencia cohesiva.</li>
+              <li>Navegación fluida: Permitir el movimiento a través del espacio 3D (rotación, traslación y zoom) utilizando los sensores del dispositivo</li>
+            </ul>
+          </div>
+          <div class="pt-4 border-t border-amber-500">
+            <span class="text-amber-500 font-bold block">Rol:</span>
+            <span class="text-white text-xs">DESARROLLADOR, DISEÑADOR UX/UI</span>
+          </div>
+        </div>
+        <div class="w-full md:w-1/3 flex flex-col gap-4">
+          <h3 class="text-white text-basic font-bold tracking-tight">¡Ingresa para ver el poster del proyecto!</h3>
+          <a href="https://drive.google.com/file/d/1Ykq4S8FOiq8-WSdunjY8Cy-VCzqHuf7b/view?usp=drive_link" class="border border-amber-500 p-4 flex items-center gap-4 hover:bg-white hover:text-amber-500 transition-all group/link">
+            <svg class="w-8 h-8 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            <span class="text-white group-hover/link:text-amber-500 text-lg font-bold uppercase leading-tight">Documentación</span>
+          </a>
+            <p class="text-white text-basic tracking-tight"><strong>Herremientas</strong><br><strong>Diseño UX/UI:</strong> Unity Canvas</p>
+        </div>
+      </div>
+
+      <!-- Filmania DB -->
+
+      <div class="border-2 border-sky-600 p-6 flex flex-col md:flex-row gap-8 hover:bg-sky-600/5 transition-colors">
         <div class="w-full md:w-2/3 space-y-4">
           <h2 class="text-white text-3xl font-bold uppercase tracking-tight">Sistema de Gestión de Cine [Filmania]</h2>
           <p class="text-white text-xs md:text-sm leading-relaxed text-justify font-light">
             Proyecto de base de datos relacional diseñado para la administración integral de un cine, permitiendo gestionar de forma eficiente películas, funciones, salas, asientos, usuarios, ventas y control de accesos mediante códigos QR.
           </p>
-          <div class="pt-4 border-t border-amber-500">
-            <span class="text-amber-500 font-bold block">Rol:</span>
+          <div class="pt-4 border-t border-sky-600">
+            <span class="text-sky-600 font-bold block">Rol:</span>
             <span class="text-white text-xs">DISEÑADOR Y GESTOR DE BASE DE DATOS</span>
           </div>
         </div>
         <div class="w-full md:w-1/3 flex flex-col gap-4">
           <h3 class="text-white text-basic font-bold tracking-tight">¡Ingresa para ver el diseño de la base de datos!</h3>
-            <a href="https://github.com/thealexispinel/FilmaniaDB.git" class="border border-amber-500 p-4 flex items-center gap-4 hover:bg-white hover:text-amber-500 transition-all group/link">
-              <svg class="w-8 h-8 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <a href="https://github.com/thealexispinel/FilmaniaDB.git" class="border border-sky-600 p-4 flex items-center gap-4 hover:bg-white hover:text-sky-600 transition-all group/link">
+              <svg class="w-8 h-8 text-sky-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <ellipse cx="12" cy="5" rx="9" ry="3" stroke-width="1.5" />
                 <path stroke-linecap="round" stroke-width="1.5" d="M3 5v14c0 1.657 4.03 3 9 3s9-1.343 9-3V5M3 12c0 1.657 4.03 3 9 3s9-1.343 9-3" />
               </svg>
-              <span class="text-white group-hover/link:text-amber-500 text-lg font-bold uppercase leading-tight">Base de Datos</span>
+              <span class="text-white group-hover/link:text-sky-600 text-lg font-bold uppercase leading-tight">Base de Datos</span>
             </a>
-            <p class="text-white text-basic tracking-tight"><strong>Herremientas</strong><br><strong>Base de Datos:</strong> MySQL Workbech</p>
+            <p class="text-white text-basic tracking-tight"><strong>Herremientas</strong><br><strong>Base de Datos:</strong> MySQL Workbech (SQL)</p>
         </div>
       </div>
 
