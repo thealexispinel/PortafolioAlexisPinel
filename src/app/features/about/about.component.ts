@@ -13,7 +13,7 @@ export class AboutComponent {
 
   downloadPDF() {
     const link = document.createElement('a');
-    link.href = '/resources/AlexisPinel_HVyC.pdf';
+    link.href = 'https://drive.google.com/file/d/1a9TtAwZZjFjS5VRWDCwsjp1cIriyJ4up/view?usp=drive_link';
     link.download = 'Alexis_Pinel_CV.pdf';
     link.click();
   }
